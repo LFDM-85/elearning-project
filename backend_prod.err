@@ -1,2 +1,46 @@
-(node:1319197) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
-(Use `node --trace-deprecation ...` to show where the warning was created)
+node:internal/modules/cjs/loader:1386
+  throw err;
+  ^
+
+Error: Cannot find module 'webpack'
+Require stack:
+- /mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/fork-ts-checker-webpack-plugin/lib/issue/issue-webpack-error.js
+- /mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/fork-ts-checker-webpack-plugin/lib/hooks/tap-after-compile-to-get-issues.js
+- /mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/fork-ts-checker-webpack-plugin/lib/hooks/tap-start-to-run-workers.js
+- /mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/fork-ts-checker-webpack-plugin/lib/plugin.js
+- /mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/fork-ts-checker-webpack-plugin/lib/index.js
+- /mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/@nestjs/cli/lib/compiler/defaults/webpack-defaults.js
+- /mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/@nestjs/cli/lib/compiler/webpack-compiler.js
+- /mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/@nestjs/cli/actions/build.action.js
+- /mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/@nestjs/cli/actions/index.js
+- /mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/@nestjs/cli/commands/command.loader.js
+- /mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/@nestjs/cli/commands/index.js
+- /mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/@nestjs/cli/bin/nest.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/fork-ts-checker-webpack-plugin/lib/issue/issue-webpack-error.js:9:35)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/fork-ts-checker-webpack-plugin/lib/issue/issue-webpack-error.js',
+    '/mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/fork-ts-checker-webpack-plugin/lib/hooks/tap-after-compile-to-get-issues.js',
+    '/mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/fork-ts-checker-webpack-plugin/lib/hooks/tap-start-to-run-workers.js',
+    '/mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/fork-ts-checker-webpack-plugin/lib/plugin.js',
+    '/mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/fork-ts-checker-webpack-plugin/lib/index.js',
+    '/mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/@nestjs/cli/lib/compiler/defaults/webpack-defaults.js',
+    '/mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/@nestjs/cli/lib/compiler/webpack-compiler.js',
+    '/mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/@nestjs/cli/actions/build.action.js',
+    '/mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/@nestjs/cli/actions/index.js',
+    '/mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/@nestjs/cli/commands/command.loader.js',
+    '/mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/@nestjs/cli/commands/index.js',
+    '/mnt/c/Users/LDM/Documents/GitHub/elearning-project/Backend-main/node_modules/@nestjs/cli/bin/nest.js'
+  ]
+}
+
+Node.js v22.19.0
