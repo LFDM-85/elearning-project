@@ -1,0 +1,1050 @@
+Starting Backend...
+
+> backend@0.0.1 start:dev
+> nest start --watch
+
+c[[90m1:00:01 AM[0m] Starting compilation in watch mode...
+
+[[90m1:00:05 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +24ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMulterModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCloudinaryModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMulterModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMulterModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseCoreModule dependencies initialized[39m[38;5;3m +18ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCourseModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLecturesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAssessmentsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWorkModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAttendanceModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +35ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:email, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id/add-course/:courseId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id/remove-course/:courseId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:email/courses, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id/add-work/:workId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id/remove-work/:workId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id/works, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id/add-assessment/:assessmentId, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id/remove-work/:assessmentId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:email/assessments, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id/add-attendance/:attendanceId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id/remove-attendance/:attendanceId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id/attendances, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signup, POST} route[39m[38;5;3m +7ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signout, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/whoami, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCourseController {/course}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/course/create, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/course/all, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/course/:name, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/course/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/course/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/course/:id/add-user/:courseId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/course/:id/remove-user/:courseId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/course/:courseId/users, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/course/:lectureId/add-lecture/:courseId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/course/:lectureId/remove-lecture/:courseId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/course/:courseId/lectures, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/course/:name, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mLecturesController {/lectures}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/lectures/create, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/lectures/all, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/lectures/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/lectures/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/lectures/:assessmentId/add-assessment/:lectureId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/lectures/:assessmentId/remove-assessment/:lectureId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/lectures/:lectureId/assessments, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/lectures/:attendanceId/add-attendance/:lectureId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/lectures/:attendanceId/remove-attendance/:lectureId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/lectures/:classId/attendances, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/lectures/:workId/add-work/:lectureId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/lectures/:workId/remove-work/:lectureId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/lectures/:lectureId/works, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/lectures/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAssessmentsController {/assessments}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/assessments/create, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/assessments/all, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/assessments/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/assessments/:id/add-user/:assessmentId, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/assessments/:id/remove-user/:assessmentId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/assessments/:assessmentId/users, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/assessments/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mWorkController {/work}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/work/create, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/work/all, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/work/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/work/:id/add-user/:workId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/work/:id/remove-user/:workId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/work/:workId/users, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/work/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAttendanceController {/attendance}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/attendance/create, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/attendance/download/:filename, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/attendance, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/attendance/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/attendance/:id/add-user/:attendanceId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/attendance/:id/remove-user/:attendanceId, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/attendance/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:05 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:16 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:16 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signin[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:16 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:16 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:16 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:16 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:16 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:16 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:17 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:17 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:17 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:17 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:17 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:17 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:17 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:17 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:18 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:18 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:18 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:18 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:18 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:18 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:18 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:19 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:19 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:19 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:19 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:19 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:19 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:19 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:19 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:19 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signup[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2957/add-lecture/694200a4ef3b8e80ccfa29bb[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2957/add-lecture/694200a4ef3b8e80ccfa29c0[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2957/add-lecture/694200a4ef3b8e80ccfa29c5[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2957/add-lecture/694200a4ef3b8e80ccfa29ca[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2957/add-lecture/694200a4ef3b8e80ccfa29cf[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2957/add-lecture/694200a4ef3b8e80ccfa29d4[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2957/add-lecture/694200a4ef3b8e80ccfa29d9[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2957/add-lecture/694200a4ef3b8e80ccfa29de[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa295b/add-lecture/694200a4ef3b8e80ccfa29e3[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa295b/add-lecture/694200a4ef3b8e80ccfa29e8[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa295b/add-lecture/694200a4ef3b8e80ccfa29ed[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa295b/add-lecture/694200a4ef3b8e80ccfa29f2[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa295b/add-lecture/694200a4ef3b8e80ccfa29f7[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa295b/add-lecture/694200a4ef3b8e80ccfa29fc[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa295b/add-lecture/694200a4ef3b8e80ccfa2a01[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa295b/add-lecture/694200a4ef3b8e80ccfa2a06[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa295f/add-lecture/694200a4ef3b8e80ccfa2a0b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa295f/add-lecture/694200a4ef3b8e80ccfa2a10[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa295f/add-lecture/694200a4ef3b8e80ccfa2a15[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa295f/add-lecture/694200a4ef3b8e80ccfa2a1a[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa295f/add-lecture/694200a4ef3b8e80ccfa2a1f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa295f/add-lecture/694200a4ef3b8e80ccfa2a24[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa295f/add-lecture/694200a4ef3b8e80ccfa2a29[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa295f/add-lecture/694200a4ef3b8e80ccfa2a2e[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2963/add-lecture/694200a4ef3b8e80ccfa2a33[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2963/add-lecture/694200a4ef3b8e80ccfa2a38[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2963/add-lecture/694200a4ef3b8e80ccfa2a3d[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2963/add-lecture/694200a4ef3b8e80ccfa2a42[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2963/add-lecture/694200a4ef3b8e80ccfa2a47[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2963/add-lecture/694200a4ef3b8e80ccfa2a4c[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2963/add-lecture/694200a4ef3b8e80ccfa2a51[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2963/add-lecture/694200a4ef3b8e80ccfa2a56[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2967/add-lecture/694200a4ef3b8e80ccfa2a5b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2967/add-lecture/694200a4ef3b8e80ccfa2a60[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2967/add-lecture/694200a4ef3b8e80ccfa2a65[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2967/add-lecture/694200a4ef3b8e80ccfa2a6a[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2967/add-lecture/694200a4ef3b8e80ccfa2a6f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2967/add-lecture/694200a4ef3b8e80ccfa2a74[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2967/add-lecture/694200a4ef3b8e80ccfa2a79[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2967/add-lecture/694200a4ef3b8e80ccfa2a7e[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa296b/add-lecture/694200a4ef3b8e80ccfa2a83[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa296b/add-lecture/694200a4ef3b8e80ccfa2a88[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa296b/add-lecture/694200a4ef3b8e80ccfa2a8d[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa296b/add-lecture/694200a4ef3b8e80ccfa2a92[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:20 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa296b/add-lecture/694200a4ef3b8e80ccfa2a97[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa296b/add-lecture/694200a5ef3b8e80ccfa2a9c[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa296b/add-lecture/694200a5ef3b8e80ccfa2aa1[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa296b/add-lecture/694200a5ef3b8e80ccfa2aa6[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa296f/add-lecture/694200a5ef3b8e80ccfa2aab[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa296f/add-lecture/694200a5ef3b8e80ccfa2ab0[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa296f/add-lecture/694200a5ef3b8e80ccfa2ab5[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa296f/add-lecture/694200a5ef3b8e80ccfa2aba[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa296f/add-lecture/694200a5ef3b8e80ccfa2abf[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa296f/add-lecture/694200a5ef3b8e80ccfa2ac4[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa296f/add-lecture/694200a5ef3b8e80ccfa2ac9[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa296f/add-lecture/694200a5ef3b8e80ccfa2ace[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2973/add-lecture/694200a5ef3b8e80ccfa2ad3[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2973/add-lecture/694200a5ef3b8e80ccfa2ad8[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2973/add-lecture/694200a5ef3b8e80ccfa2add[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2973/add-lecture/694200a5ef3b8e80ccfa2ae2[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2973/add-lecture/694200a5ef3b8e80ccfa2ae7[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2973/add-lecture/694200a5ef3b8e80ccfa2aec[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2973/add-lecture/694200a5ef3b8e80ccfa2af1[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2973/add-lecture/694200a5ef3b8e80ccfa2af6[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2977/add-lecture/694200a5ef3b8e80ccfa2afb[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2977/add-lecture/694200a5ef3b8e80ccfa2b00[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2977/add-lecture/694200a5ef3b8e80ccfa2b05[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2977/add-lecture/694200a5ef3b8e80ccfa2b0a[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2977/add-lecture/694200a5ef3b8e80ccfa2b0f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2977/add-lecture/694200a5ef3b8e80ccfa2b14[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2977/add-lecture/694200a5ef3b8e80ccfa2b19[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2977/add-lecture/694200a5ef3b8e80ccfa2b1e[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa297b/add-lecture/694200a5ef3b8e80ccfa2b23[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa297b/add-lecture/694200a5ef3b8e80ccfa2b28[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa297b/add-lecture/694200a5ef3b8e80ccfa2b2d[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa297b/add-lecture/694200a5ef3b8e80ccfa2b32[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa297b/add-lecture/694200a5ef3b8e80ccfa2b37[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa297b/add-lecture/694200a5ef3b8e80ccfa2b3c[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa297b/add-lecture/694200a5ef3b8e80ccfa2b41[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa297b/add-lecture/694200a5ef3b8e80ccfa2b46[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa297f/add-lecture/694200a5ef3b8e80ccfa2b4b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa297f/add-lecture/694200a5ef3b8e80ccfa2b50[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa297f/add-lecture/694200a5ef3b8e80ccfa2b55[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa297f/add-lecture/694200a5ef3b8e80ccfa2b5a[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa297f/add-lecture/694200a5ef3b8e80ccfa2b5f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa297f/add-lecture/694200a5ef3b8e80ccfa2b64[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa297f/add-lecture/694200a5ef3b8e80ccfa2b69[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa297f/add-lecture/694200a5ef3b8e80ccfa2b6e[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2983/add-lecture/694200a5ef3b8e80ccfa2b73[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2983/add-lecture/694200a5ef3b8e80ccfa2b78[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2983/add-lecture/694200a5ef3b8e80ccfa2b7d[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2983/add-lecture/694200a5ef3b8e80ccfa2b82[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2983/add-lecture/694200a5ef3b8e80ccfa2b87[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2983/add-lecture/694200a5ef3b8e80ccfa2b8c[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2983/add-lecture/694200a5ef3b8e80ccfa2b91[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2983/add-lecture/694200a5ef3b8e80ccfa2b96[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2987/add-lecture/694200a5ef3b8e80ccfa2b9b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2987/add-lecture/694200a5ef3b8e80ccfa2ba0[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2987/add-lecture/694200a5ef3b8e80ccfa2ba5[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2987/add-lecture/694200a5ef3b8e80ccfa2baa[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2987/add-lecture/694200a5ef3b8e80ccfa2baf[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2987/add-lecture/694200a5ef3b8e80ccfa2bb4[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2987/add-lecture/694200a5ef3b8e80ccfa2bb9[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2987/add-lecture/694200a5ef3b8e80ccfa2bbe[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa298b/add-lecture/694200a5ef3b8e80ccfa2bc3[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa298b/add-lecture/694200a5ef3b8e80ccfa2bc8[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa298b/add-lecture/694200a5ef3b8e80ccfa2bcd[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa298b/add-lecture/694200a5ef3b8e80ccfa2bd2[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa298b/add-lecture/694200a5ef3b8e80ccfa2bd7[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa298b/add-lecture/694200a5ef3b8e80ccfa2bdc[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa298b/add-lecture/694200a5ef3b8e80ccfa2be1[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa298b/add-lecture/694200a5ef3b8e80ccfa2be6[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa298f/add-lecture/694200a5ef3b8e80ccfa2beb[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa298f/add-lecture/694200a5ef3b8e80ccfa2bf0[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa298f/add-lecture/694200a5ef3b8e80ccfa2bf5[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa298f/add-lecture/694200a5ef3b8e80ccfa2bfa[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa298f/add-lecture/694200a5ef3b8e80ccfa2bff[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa298f/add-lecture/694200a5ef3b8e80ccfa2c04[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa298f/add-lecture/694200a5ef3b8e80ccfa2c09[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa298f/add-lecture/694200a5ef3b8e80ccfa2c0e[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2993/add-lecture/694200a5ef3b8e80ccfa2c13[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2993/add-lecture/694200a5ef3b8e80ccfa2c18[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2993/add-lecture/694200a5ef3b8e80ccfa2c1d[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2993/add-lecture/694200a5ef3b8e80ccfa2c22[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2993/add-lecture/694200a5ef3b8e80ccfa2c27[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2993/add-lecture/694200a5ef3b8e80ccfa2c2c[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2993/add-lecture/694200a5ef3b8e80ccfa2c31[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2993/add-lecture/694200a5ef3b8e80ccfa2c36[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2997/add-lecture/694200a5ef3b8e80ccfa2c3b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2997/add-lecture/694200a5ef3b8e80ccfa2c40[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2997/add-lecture/694200a5ef3b8e80ccfa2c45[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2997/add-lecture/694200a5ef3b8e80ccfa2c4a[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2997/add-lecture/694200a5ef3b8e80ccfa2c4f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2997/add-lecture/694200a5ef3b8e80ccfa2c54[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2997/add-lecture/694200a5ef3b8e80ccfa2c59[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa2997/add-lecture/694200a5ef3b8e80ccfa2c5e[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa299b/add-lecture/694200a5ef3b8e80ccfa2c63[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa299b/add-lecture/694200a5ef3b8e80ccfa2c68[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa299b/add-lecture/694200a5ef3b8e80ccfa2c6d[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa299b/add-lecture/694200a5ef3b8e80ccfa2c72[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa299b/add-lecture/694200a5ef3b8e80ccfa2c77[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa299b/add-lecture/694200a5ef3b8e80ccfa2c7c[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa299b/add-lecture/694200a5ef3b8e80ccfa2c81[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa299b/add-lecture/694200a5ef3b8e80ccfa2c86[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa299f/add-lecture/694200a5ef3b8e80ccfa2c8b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa299f/add-lecture/694200a5ef3b8e80ccfa2c90[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa299f/add-lecture/694200a5ef3b8e80ccfa2c95[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa299f/add-lecture/694200a5ef3b8e80ccfa2c9a[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa299f/add-lecture/694200a5ef3b8e80ccfa2c9f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa299f/add-lecture/694200a5ef3b8e80ccfa2ca4[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa299f/add-lecture/694200a5ef3b8e80ccfa2ca9[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa299f/add-lecture/694200a5ef3b8e80ccfa2cae[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29a3/add-lecture/694200a5ef3b8e80ccfa2cb3[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29a3/add-lecture/694200a5ef3b8e80ccfa2cb8[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29a3/add-lecture/694200a5ef3b8e80ccfa2cbd[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29a3/add-lecture/694200a5ef3b8e80ccfa2cc2[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29a3/add-lecture/694200a5ef3b8e80ccfa2cc7[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29a3/add-lecture/694200a5ef3b8e80ccfa2ccc[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29a3/add-lecture/694200a5ef3b8e80ccfa2cd1[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29a3/add-lecture/694200a5ef3b8e80ccfa2cd6[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29a7/add-lecture/694200a5ef3b8e80ccfa2cdb[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29a7/add-lecture/694200a5ef3b8e80ccfa2ce0[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29a7/add-lecture/694200a5ef3b8e80ccfa2ce5[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29a7/add-lecture/694200a5ef3b8e80ccfa2cea[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29a7/add-lecture/694200a5ef3b8e80ccfa2cef[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29a7/add-lecture/694200a5ef3b8e80ccfa2cf4[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29a7/add-lecture/694200a5ef3b8e80ccfa2cf9[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29a7/add-lecture/694200a5ef3b8e80ccfa2cfe[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29ab/add-lecture/694200a5ef3b8e80ccfa2d03[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29ab/add-lecture/694200a5ef3b8e80ccfa2d08[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29ab/add-lecture/694200a5ef3b8e80ccfa2d0d[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29ab/add-lecture/694200a5ef3b8e80ccfa2d12[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29ab/add-lecture/694200a5ef3b8e80ccfa2d17[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29ab/add-lecture/694200a5ef3b8e80ccfa2d1c[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29ab/add-lecture/694200a5ef3b8e80ccfa2d21[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29ab/add-lecture/694200a5ef3b8e80ccfa2d26[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29af/add-lecture/694200a5ef3b8e80ccfa2d2b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29af/add-lecture/694200a5ef3b8e80ccfa2d30[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29af/add-lecture/694200a5ef3b8e80ccfa2d35[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29af/add-lecture/694200a5ef3b8e80ccfa2d3a[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29af/add-lecture/694200a5ef3b8e80ccfa2d3f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29af/add-lecture/694200a5ef3b8e80ccfa2d44[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29af/add-lecture/694200a5ef3b8e80ccfa2d49[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29af/add-lecture/694200a5ef3b8e80ccfa2d4e[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29b3/add-lecture/694200a5ef3b8e80ccfa2d53[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29b3/add-lecture/694200a5ef3b8e80ccfa2d58[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29b3/add-lecture/694200a5ef3b8e80ccfa2d5d[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29b3/add-lecture/694200a5ef3b8e80ccfa2d62[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29b3/add-lecture/694200a5ef3b8e80ccfa2d67[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29b3/add-lecture/694200a5ef3b8e80ccfa2d6c[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29b3/add-lecture/694200a5ef3b8e80ccfa2d71[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29b3/add-lecture/694200a5ef3b8e80ccfa2d76[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29b7/add-lecture/694200a5ef3b8e80ccfa2d7b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29b7/add-lecture/694200a5ef3b8e80ccfa2d80[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29b7/add-lecture/694200a5ef3b8e80ccfa2d85[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29b7/add-lecture/694200a5ef3b8e80ccfa2d8a[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29b7/add-lecture/694200a5ef3b8e80ccfa2d8f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29b7/add-lecture/694200a5ef3b8e80ccfa2d94[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29b7/add-lecture/694200a5ef3b8e80ccfa2d99[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: POST /lectures/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /course/694200a4ef3b8e80ccfa29b7/add-lecture/694200a5ef3b8e80ccfa2d9e[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28df/add-course/694200a4ef3b8e80ccfa295f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28df/add-course/694200a4ef3b8e80ccfa2967[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28df/add-course/694200a4ef3b8e80ccfa299f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28e3/add-course/694200a4ef3b8e80ccfa295b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28e3/add-course/694200a4ef3b8e80ccfa2977[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28e3/add-course/694200a4ef3b8e80ccfa2963[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28e3/add-course/694200a4ef3b8e80ccfa2967[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28e3/add-course/694200a4ef3b8e80ccfa2973[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28e3/add-course/694200a4ef3b8e80ccfa2987[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28e3/add-course/694200a4ef3b8e80ccfa298b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28e3/add-course/694200a4ef3b8e80ccfa2997[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28e7/add-course/694200a4ef3b8e80ccfa296b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28e7/add-course/694200a4ef3b8e80ccfa2987[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28e7/add-course/694200a4ef3b8e80ccfa29ab[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28e7/add-course/694200a4ef3b8e80ccfa295b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28e7/add-course/694200a4ef3b8e80ccfa2957[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28e7/add-course/694200a4ef3b8e80ccfa2983[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28e7/add-course/694200a4ef3b8e80ccfa2997[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28eb/add-course/694200a4ef3b8e80ccfa298b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28eb/add-course/694200a4ef3b8e80ccfa2997[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28eb/add-course/694200a4ef3b8e80ccfa295b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28ef/add-course/694200a4ef3b8e80ccfa2967[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28ef/add-course/694200a4ef3b8e80ccfa2993[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28ef/add-course/694200a4ef3b8e80ccfa299f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28ef/add-course/694200a4ef3b8e80ccfa2957[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28ef/add-course/694200a4ef3b8e80ccfa295b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28ef/add-course/694200a4ef3b8e80ccfa295f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28ef/add-course/694200a4ef3b8e80ccfa297b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28f3/add-course/694200a4ef3b8e80ccfa2983[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28f3/add-course/694200a4ef3b8e80ccfa297b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28f3/add-course/694200a4ef3b8e80ccfa29b3[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28f3/add-course/694200a4ef3b8e80ccfa299b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28f3/add-course/694200a4ef3b8e80ccfa298f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28f3/add-course/694200a4ef3b8e80ccfa29a7[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28f7/add-course/694200a4ef3b8e80ccfa29a3[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28f7/add-course/694200a4ef3b8e80ccfa298f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28f7/add-course/694200a4ef3b8e80ccfa2957[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28f7/add-course/694200a4ef3b8e80ccfa299b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28f7/add-course/694200a4ef3b8e80ccfa297b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28f7/add-course/694200a4ef3b8e80ccfa296f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28fb/add-course/694200a4ef3b8e80ccfa29b7[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28fb/add-course/694200a4ef3b8e80ccfa295b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a1ef3b8e80ccfa28fb/add-course/694200a4ef3b8e80ccfa297b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa28ff/add-course/694200a4ef3b8e80ccfa2957[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa28ff/add-course/694200a4ef3b8e80ccfa298f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa28ff/add-course/694200a4ef3b8e80ccfa29a3[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa28ff/add-course/694200a4ef3b8e80ccfa2983[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa28ff/add-course/694200a4ef3b8e80ccfa2967[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa28ff/add-course/694200a4ef3b8e80ccfa296b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa28ff/add-course/694200a4ef3b8e80ccfa299f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa28ff/add-course/694200a4ef3b8e80ccfa2963[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2903/add-course/694200a4ef3b8e80ccfa2967[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2903/add-course/694200a4ef3b8e80ccfa299f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2903/add-course/694200a4ef3b8e80ccfa2977[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2903/add-course/694200a4ef3b8e80ccfa298b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2903/add-course/694200a4ef3b8e80ccfa29af[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2907/add-course/694200a4ef3b8e80ccfa297f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2907/add-course/694200a4ef3b8e80ccfa296b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2907/add-course/694200a4ef3b8e80ccfa298b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2907/add-course/694200a4ef3b8e80ccfa2997[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2907/add-course/694200a4ef3b8e80ccfa2983[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa290b/add-course/694200a4ef3b8e80ccfa296b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa290b/add-course/694200a4ef3b8e80ccfa2973[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa290b/add-course/694200a4ef3b8e80ccfa2983[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa290b/add-course/694200a4ef3b8e80ccfa2957[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa290b/add-course/694200a4ef3b8e80ccfa299f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa290b/add-course/694200a4ef3b8e80ccfa29af[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa290f/add-course/694200a4ef3b8e80ccfa29b3[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa290f/add-course/694200a4ef3b8e80ccfa2963[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa290f/add-course/694200a4ef3b8e80ccfa29b7[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa290f/add-course/694200a4ef3b8e80ccfa295f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa290f/add-course/694200a4ef3b8e80ccfa298b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa290f/add-course/694200a4ef3b8e80ccfa2997[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2913/add-course/694200a4ef3b8e80ccfa29ab[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2913/add-course/694200a4ef3b8e80ccfa298f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2913/add-course/694200a4ef3b8e80ccfa296f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2913/add-course/694200a4ef3b8e80ccfa297b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2913/add-course/694200a4ef3b8e80ccfa2963[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2913/add-course/694200a4ef3b8e80ccfa295f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2917/add-course/694200a4ef3b8e80ccfa295b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2917/add-course/694200a4ef3b8e80ccfa2957[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2917/add-course/694200a4ef3b8e80ccfa2983[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2917/add-course/694200a4ef3b8e80ccfa2977[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2917/add-course/694200a4ef3b8e80ccfa29a7[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa2917/add-course/694200a4ef3b8e80ccfa297f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa291b/add-course/694200a4ef3b8e80ccfa2983[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa291b/add-course/694200a4ef3b8e80ccfa2957[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a2ef3b8e80ccfa291b/add-course/694200a4ef3b8e80ccfa29ab[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa291f/add-course/694200a4ef3b8e80ccfa29b3[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa291f/add-course/694200a4ef3b8e80ccfa295b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa291f/add-course/694200a4ef3b8e80ccfa2993[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa291f/add-course/694200a4ef3b8e80ccfa29ab[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa291f/add-course/694200a4ef3b8e80ccfa29b7[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2923/add-course/694200a4ef3b8e80ccfa2977[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2923/add-course/694200a4ef3b8e80ccfa29b7[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2923/add-course/694200a4ef3b8e80ccfa2957[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2923/add-course/694200a4ef3b8e80ccfa296b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2923/add-course/694200a4ef3b8e80ccfa29ab[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2927/add-course/694200a4ef3b8e80ccfa297b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2927/add-course/694200a4ef3b8e80ccfa2957[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2927/add-course/694200a4ef3b8e80ccfa2983[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2927/add-course/694200a4ef3b8e80ccfa299f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2927/add-course/694200a4ef3b8e80ccfa29a3[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa292b/add-course/694200a4ef3b8e80ccfa296b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa292b/add-course/694200a4ef3b8e80ccfa298b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa292b/add-course/694200a4ef3b8e80ccfa29b3[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa292b/add-course/694200a4ef3b8e80ccfa29ab[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa292b/add-course/694200a4ef3b8e80ccfa2967[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa292b/add-course/694200a4ef3b8e80ccfa2983[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa292f/add-course/694200a4ef3b8e80ccfa297f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa292f/add-course/694200a4ef3b8e80ccfa2967[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa292f/add-course/694200a4ef3b8e80ccfa29a7[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa292f/add-course/694200a4ef3b8e80ccfa29a3[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa292f/add-course/694200a4ef3b8e80ccfa2957[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa292f/add-course/694200a4ef3b8e80ccfa29af[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa292f/add-course/694200a4ef3b8e80ccfa2977[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:21 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa292f/add-course/694200a4ef3b8e80ccfa299b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2933/add-course/694200a4ef3b8e80ccfa298f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2933/add-course/694200a4ef3b8e80ccfa29a7[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2933/add-course/694200a4ef3b8e80ccfa2987[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2933/add-course/694200a4ef3b8e80ccfa2963[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2933/add-course/694200a4ef3b8e80ccfa2957[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2933/add-course/694200a4ef3b8e80ccfa29b3[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2933/add-course/694200a4ef3b8e80ccfa2997[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2933/add-course/694200a4ef3b8e80ccfa2993[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2937/add-course/694200a4ef3b8e80ccfa2993[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2937/add-course/694200a4ef3b8e80ccfa298b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2937/add-course/694200a4ef3b8e80ccfa295b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2937/add-course/694200a4ef3b8e80ccfa2997[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2937/add-course/694200a4ef3b8e80ccfa29b7[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2937/add-course/694200a4ef3b8e80ccfa2973[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa2937/add-course/694200a4ef3b8e80ccfa297f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa293b/add-course/694200a4ef3b8e80ccfa29a3[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa293b/add-course/694200a4ef3b8e80ccfa295b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa293b/add-course/694200a4ef3b8e80ccfa29af[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa293b/add-course/694200a4ef3b8e80ccfa29b3[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa293b/add-course/694200a4ef3b8e80ccfa295f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa293b/add-course/694200a4ef3b8e80ccfa2987[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa293f/add-course/694200a4ef3b8e80ccfa296f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa293f/add-course/694200a4ef3b8e80ccfa2993[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa293f/add-course/694200a4ef3b8e80ccfa29b3[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa293f/add-course/694200a4ef3b8e80ccfa29a3[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa293f/add-course/694200a4ef3b8e80ccfa2997[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa293f/add-course/694200a4ef3b8e80ccfa29b7[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa293f/add-course/694200a4ef3b8e80ccfa295b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a3ef3b8e80ccfa293f/add-course/694200a4ef3b8e80ccfa2957[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa2943/add-course/694200a4ef3b8e80ccfa2963[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa2943/add-course/694200a4ef3b8e80ccfa29a3[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa2943/add-course/694200a4ef3b8e80ccfa297f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa2947/add-course/694200a4ef3b8e80ccfa2973[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa2947/add-course/694200a4ef3b8e80ccfa2987[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa2947/add-course/694200a4ef3b8e80ccfa296b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa2947/add-course/694200a4ef3b8e80ccfa298b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa2947/add-course/694200a4ef3b8e80ccfa29a3[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa2947/add-course/694200a4ef3b8e80ccfa296f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa2947/add-course/694200a4ef3b8e80ccfa2967[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa294b/add-course/694200a4ef3b8e80ccfa2967[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa294b/add-course/694200a4ef3b8e80ccfa2983[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa294b/add-course/694200a4ef3b8e80ccfa299b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa294b/add-course/694200a4ef3b8e80ccfa29a7[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa294b/add-course/694200a4ef3b8e80ccfa29ab[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa294b/add-course/694200a4ef3b8e80ccfa2977[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa294b/add-course/694200a4ef3b8e80ccfa297f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa294b/add-course/694200a4ef3b8e80ccfa2997[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa294f/add-course/694200a4ef3b8e80ccfa298b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa294f/add-course/694200a4ef3b8e80ccfa295f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa294f/add-course/694200a4ef3b8e80ccfa298f[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa294f/add-course/694200a4ef3b8e80ccfa296b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa294f/add-course/694200a4ef3b8e80ccfa29a3[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa294f/add-course/694200a4ef3b8e80ccfa2993[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa294f/add-course/694200a4ef3b8e80ccfa295b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa294f/add-course/694200a4ef3b8e80ccfa299b[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa2953/add-course/694200a4ef3b8e80ccfa2973[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa2953/add-course/694200a4ef3b8e80ccfa2997[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa2953/add-course/694200a4ef3b8e80ccfa29af[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:22 AM [32m    LOG[39m [32mIncoming Request: PATCH /users/694200a4ef3b8e80ccfa2953/add-course/694200a4ef3b8e80ccfa2963[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:29 AM [32m    LOG[39m [32mIncoming Request: GET /auth/refresh[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:00:51 AM [32m    LOG[39m [32mIncoming Request: GET /main.5fac97019135375835d5.hot-update.json[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:00 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signin[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:00 AM [32m    LOG[39m [32mIncoming Request: GET /users/admin@admin.com/courses[39m
+[UsersService] getCourses for admin@admin.com: {
+  "_id": "694200a0ef3b8e80ccfa28c5",
+  "name": "Admin User",
+  "image": "https://picsum.photos/seed/100/200/200",
+  "email": "admin@admin.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$RwKUK4U2tMq4CvlePc1UjA$fAKYAw5X2IzpINYNMnW+J4jRDKTV9muZ3adr6ix1UUI",
+  "roles": [
+    "admin",
+    "professor"
+  ],
+  "isValidated": true,
+  "courses": [],
+  "__v": 0,
+  "refreshToken": "$argon2id$v=19$m=65536,t=3,p=4$uQ6hqCW2VyXduw4nxZrdIQ$pHe6HDpBRYs4KLWBa5ldtofAGPy9/uKoAhqa/kH5aB8"
+}
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:02 AM [32m    LOG[39m [32mIncoming Request: GET /my/users[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:02 AM [32m    LOG[39m [32mIncoming Request: GET /my/user/admin@admin.com[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:03 AM [32m    LOG[39m [32mIncoming Request: GET /my/users[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:03 AM [32m    LOG[39m [32mIncoming Request: GET /users/admin@admin.com/courses[39m
+[UsersService] getCourses for admin@admin.com: {
+  "_id": "694200a0ef3b8e80ccfa28c5",
+  "name": "Admin User",
+  "image": "https://picsum.photos/seed/100/200/200",
+  "email": "admin@admin.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$RwKUK4U2tMq4CvlePc1UjA$fAKYAw5X2IzpINYNMnW+J4jRDKTV9muZ3adr6ix1UUI",
+  "roles": [
+    "admin",
+    "professor"
+  ],
+  "isValidated": true,
+  "courses": [],
+  "__v": 0,
+  "refreshToken": "$argon2id$v=19$m=65536,t=3,p=4$uQ6hqCW2VyXduw4nxZrdIQ$pHe6HDpBRYs4KLWBa5ldtofAGPy9/uKoAhqa/kH5aB8"
+}
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:04 AM [32m    LOG[39m [32mIncoming Request: GET /my/course/all[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:04 AM [32m    LOG[39m [32mIncoming Request: GET /my/users[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:04 AM [32m    LOG[39m [32mIncoming Request: GET /my/course/all[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:06 AM [32m    LOG[39m [32mIncoming Request: GET /users[39m
+GET /users endpoint hit. Attempting to find all users...
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:13 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signout[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:39 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signin[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:40 AM [32m    LOG[39m [32mIncoming Request: GET /users/student1@elearning.com/courses[39m
+[UsersService] getCourses for student1@elearning.com: {
+  "_id": "694200a1ef3b8e80ccfa28df",
+  "name": "Frank Miller",
+  "image": "https://picsum.photos/seed/300/200/200",
+  "email": "student1@elearning.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$3FzYfVM7+6NRBwbP9904Pg$qjbt33kRc/mBTtkx/S2q3iUUV6lXIEmYvu7C+KLA7sw",
+  "roles": [
+    "student"
+  ],
+  "isValidated": true,
+  "courses": [
+    {
+      "_id": "694200a4ef3b8e80ccfa299f",
+      "nameCourse": "Ethical Hacking",
+      "open": true,
+      "user": [],
+      "lecture": [],
+      "__v": 0
+    }
+  ],
+  "__v": 0,
+  "refreshToken": "$argon2id$v=19$m=65536,t=3,p=4$kr3aTilngG9WpVYVoip3OQ$KgnxT+ghdkYmFO1EAfqtbdp6L9Q5He2ig0pUjEwiRGE"
+}
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:44 AM [32m    LOG[39m [32mIncoming Request: GET /my/users[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:44 AM [32m    LOG[39m [32mIncoming Request: GET /users/student1@elearning.com/courses[39m
+[UsersService] getCourses for student1@elearning.com: {
+  "_id": "694200a1ef3b8e80ccfa28df",
+  "name": "Frank Miller",
+  "image": "https://picsum.photos/seed/300/200/200",
+  "email": "student1@elearning.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$3FzYfVM7+6NRBwbP9904Pg$qjbt33kRc/mBTtkx/S2q3iUUV6lXIEmYvu7C+KLA7sw",
+  "roles": [
+    "student"
+  ],
+  "isValidated": true,
+  "courses": [
+    {
+      "_id": "694200a4ef3b8e80ccfa299f",
+      "nameCourse": "Ethical Hacking",
+      "open": true,
+      "user": [],
+      "lecture": [],
+      "__v": 0
+    }
+  ],
+  "__v": 0,
+  "refreshToken": "$argon2id$v=19$m=65536,t=3,p=4$kr3aTilngG9WpVYVoip3OQ$KgnxT+ghdkYmFO1EAfqtbdp6L9Q5He2ig0pUjEwiRGE"
+}
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:45 AM [32m    LOG[39m [32mIncoming Request: GET /users/student1@elearning.com/courses[39m
+[UsersService] getCourses for student1@elearning.com: {
+  "_id": "694200a1ef3b8e80ccfa28df",
+  "name": "Frank Miller",
+  "image": "https://picsum.photos/seed/300/200/200",
+  "email": "student1@elearning.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$3FzYfVM7+6NRBwbP9904Pg$qjbt33kRc/mBTtkx/S2q3iUUV6lXIEmYvu7C+KLA7sw",
+  "roles": [
+    "student"
+  ],
+  "isValidated": true,
+  "courses": [
+    {
+      "_id": "694200a4ef3b8e80ccfa299f",
+      "nameCourse": "Ethical Hacking",
+      "open": true,
+      "user": [],
+      "lecture": [],
+      "__v": 0
+    }
+  ],
+  "__v": 0,
+  "refreshToken": "$argon2id$v=19$m=65536,t=3,p=4$kr3aTilngG9WpVYVoip3OQ$KgnxT+ghdkYmFO1EAfqtbdp6L9Q5He2ig0pUjEwiRGE"
+}
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:49 AM [32m    LOG[39m [32mIncoming Request: GET /my/users[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:49 AM [32m    LOG[39m [32mIncoming Request: GET /my/user/student1@elearning.com[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:50 AM [32m    LOG[39m [32mIncoming Request: GET /my/users[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:52 AM [32m    LOG[39m [32mIncoming Request: GET /my/users[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:52 AM [32m    LOG[39m [32mIncoming Request: GET /users/student1@elearning.com/courses[39m
+[UsersService] getCourses for student1@elearning.com: {
+  "_id": "694200a1ef3b8e80ccfa28df",
+  "name": "Frank Miller",
+  "image": "https://picsum.photos/seed/300/200/200",
+  "email": "student1@elearning.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$3FzYfVM7+6NRBwbP9904Pg$qjbt33kRc/mBTtkx/S2q3iUUV6lXIEmYvu7C+KLA7sw",
+  "roles": [
+    "student"
+  ],
+  "isValidated": true,
+  "courses": [
+    {
+      "_id": "694200a4ef3b8e80ccfa299f",
+      "nameCourse": "Ethical Hacking",
+      "open": true,
+      "user": [],
+      "lecture": [],
+      "__v": 0
+    }
+  ],
+  "__v": 0,
+  "refreshToken": "$argon2id$v=19$m=65536,t=3,p=4$kr3aTilngG9WpVYVoip3OQ$KgnxT+ghdkYmFO1EAfqtbdp6L9Q5He2ig0pUjEwiRGE"
+}
+[32m[Nest] 1319251  - [39m12/17/2025, 1:01:53 AM [32m    LOG[39m [32mIncoming Request: GET /users/student1@elearning.com/courses[39m
+[UsersService] getCourses for student1@elearning.com: {
+  "_id": "694200a1ef3b8e80ccfa28df",
+  "name": "Frank Miller",
+  "image": "https://picsum.photos/seed/300/200/200",
+  "email": "student1@elearning.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$3FzYfVM7+6NRBwbP9904Pg$qjbt33kRc/mBTtkx/S2q3iUUV6lXIEmYvu7C+KLA7sw",
+  "roles": [
+    "student"
+  ],
+  "isValidated": true,
+  "courses": [
+    {
+      "_id": "694200a4ef3b8e80ccfa299f",
+      "nameCourse": "Ethical Hacking",
+      "open": true,
+      "user": [],
+      "lecture": [],
+      "__v": 0
+    }
+  ],
+  "__v": 0,
+  "refreshToken": "$argon2id$v=19$m=65536,t=3,p=4$kr3aTilngG9WpVYVoip3OQ$KgnxT+ghdkYmFO1EAfqtbdp6L9Q5He2ig0pUjEwiRGE"
+}
+[32m[Nest] 1319251  - [39m12/17/2025, 8:12:38 AM [32m    LOG[39m [32mIncoming Request: GET /my/users[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:12:38 AM [32m    LOG[39m [32mIncoming Request: GET /users/student1@elearning.com/courses[39m
+[UsersService] getCourses for student1@elearning.com: {
+  "_id": "694200a1ef3b8e80ccfa28df",
+  "name": "Frank Miller",
+  "image": "https://picsum.photos/seed/300/200/200",
+  "email": "student1@elearning.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$3FzYfVM7+6NRBwbP9904Pg$qjbt33kRc/mBTtkx/S2q3iUUV6lXIEmYvu7C+KLA7sw",
+  "roles": [
+    "student"
+  ],
+  "isValidated": true,
+  "courses": [
+    {
+      "_id": "694200a4ef3b8e80ccfa299f",
+      "nameCourse": "Ethical Hacking",
+      "open": true,
+      "user": [],
+      "lecture": [],
+      "__v": 0
+    }
+  ],
+  "__v": 0,
+  "refreshToken": "$argon2id$v=19$m=65536,t=3,p=4$kr3aTilngG9WpVYVoip3OQ$KgnxT+ghdkYmFO1EAfqtbdp6L9Q5He2ig0pUjEwiRGE"
+}
+[32m[Nest] 1319251  - [39m12/17/2025, 8:12:40 AM [32m    LOG[39m [32mIncoming Request: GET /my/users[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:12:40 AM [32m    LOG[39m [32mIncoming Request: GET /my/user/student1@elearning.com[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:12:41 AM [32m    LOG[39m [32mIncoming Request: GET /my/users[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:12:43 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signout[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:13:05 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signin[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:13:05 AM [32m    LOG[39m [32mIncoming Request: GET /users/admin@admin.com/courses[39m
+[UsersService] getCourses for admin@admin.com: {
+  "_id": "694200a0ef3b8e80ccfa28c5",
+  "name": "Admin User",
+  "image": "https://picsum.photos/seed/100/200/200",
+  "email": "admin@admin.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$RwKUK4U2tMq4CvlePc1UjA$fAKYAw5X2IzpINYNMnW+J4jRDKTV9muZ3adr6ix1UUI",
+  "roles": [
+    "admin",
+    "professor"
+  ],
+  "isValidated": true,
+  "courses": [],
+  "__v": 0,
+  "refreshToken": "$argon2id$v=19$m=65536,t=3,p=4$9ov3VDCBguk38giCT5a5/w$Ouu1iGGQO/FsDtwWuTjM31ADT4XDlvezIN5+nYu6T2c"
+}
+[32m[Nest] 1319251  - [39m12/17/2025, 8:13:18 AM [32m    LOG[39m [32mIncoming Request: GET /users/admin@admin.com/courses[39m
+[UsersService] getCourses for admin@admin.com: {
+  "_id": "694200a0ef3b8e80ccfa28c5",
+  "name": "Admin User",
+  "image": "https://picsum.photos/seed/100/200/200",
+  "email": "admin@admin.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$RwKUK4U2tMq4CvlePc1UjA$fAKYAw5X2IzpINYNMnW+J4jRDKTV9muZ3adr6ix1UUI",
+  "roles": [
+    "admin",
+    "professor"
+  ],
+  "isValidated": true,
+  "courses": [],
+  "__v": 0,
+  "refreshToken": "$argon2id$v=19$m=65536,t=3,p=4$9ov3VDCBguk38giCT5a5/w$Ouu1iGGQO/FsDtwWuTjM31ADT4XDlvezIN5+nYu6T2c"
+}
+[32m[Nest] 1319251  - [39m12/17/2025, 8:13:21 AM [32m    LOG[39m [32mIncoming Request: GET /my/users[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:13:21 AM [32m    LOG[39m [32mIncoming Request: GET /users/admin@admin.com/courses[39m
+[UsersService] getCourses for admin@admin.com: {
+  "_id": "694200a0ef3b8e80ccfa28c5",
+  "name": "Admin User",
+  "image": "https://picsum.photos/seed/100/200/200",
+  "email": "admin@admin.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$RwKUK4U2tMq4CvlePc1UjA$fAKYAw5X2IzpINYNMnW+J4jRDKTV9muZ3adr6ix1UUI",
+  "roles": [
+    "admin",
+    "professor"
+  ],
+  "isValidated": true,
+  "courses": [],
+  "__v": 0,
+  "refreshToken": "$argon2id$v=19$m=65536,t=3,p=4$9ov3VDCBguk38giCT5a5/w$Ouu1iGGQO/FsDtwWuTjM31ADT4XDlvezIN5+nYu6T2c"
+}
+[32m[Nest] 1319251  - [39m12/17/2025, 8:13:23 AM [32m    LOG[39m [32mIncoming Request: GET /my/users[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:13:23 AM [32m    LOG[39m [32mIncoming Request: GET /my/user/admin@admin.com[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:13:24 AM [32m    LOG[39m [32mIncoming Request: GET /my/course/all[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:13:24 AM [32m    LOG[39m [32mIncoming Request: GET /my/users[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:13:24 AM [32m    LOG[39m [32mIncoming Request: GET /my/course/all[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:13:27 AM [32m    LOG[39m [32mIncoming Request: GET /users[39m
+GET /users endpoint hit. Attempting to find all users...
+[32m[Nest] 1319251  - [39m12/17/2025, 8:13:33 AM [32m    LOG[39m [32mIncoming Request: GET /users[39m
+GET /users endpoint hit. Attempting to find all users...
+[32m[Nest] 1319251  - [39m12/17/2025, 8:13:58 AM [32m    LOG[39m [32mIncoming Request: GET /users/admin@admin.com/courses[39m
+[UsersService] getCourses for admin@admin.com: {
+  "_id": "694200a0ef3b8e80ccfa28c5",
+  "name": "Admin User",
+  "image": "https://picsum.photos/seed/100/200/200",
+  "email": "admin@admin.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$RwKUK4U2tMq4CvlePc1UjA$fAKYAw5X2IzpINYNMnW+J4jRDKTV9muZ3adr6ix1UUI",
+  "roles": [
+    "admin",
+    "professor"
+  ],
+  "isValidated": true,
+  "courses": [],
+  "__v": 0,
+  "refreshToken": "$argon2id$v=19$m=65536,t=3,p=4$9ov3VDCBguk38giCT5a5/w$Ouu1iGGQO/FsDtwWuTjM31ADT4XDlvezIN5+nYu6T2c"
+}
+[32m[Nest] 1319251  - [39m12/17/2025, 8:14:08 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signout[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:14:14 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signin[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:14:14 AM [32m    LOG[39m [32mIncoming Request: GET /users/admin@admin.com/courses[39m
+[UsersService] getCourses for admin@admin.com: {
+  "_id": "694200a0ef3b8e80ccfa28c5",
+  "name": "Admin User",
+  "image": "https://picsum.photos/seed/100/200/200",
+  "email": "admin@admin.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$RwKUK4U2tMq4CvlePc1UjA$fAKYAw5X2IzpINYNMnW+J4jRDKTV9muZ3adr6ix1UUI",
+  "roles": [
+    "admin",
+    "professor"
+  ],
+  "isValidated": true,
+  "courses": [],
+  "__v": 0,
+  "refreshToken": "$argon2id$v=19$m=65536,t=3,p=4$HJgDON0egsRfmqquBrhR0g$Y/BOmk0EQMLWlHpn6CyBjHztACDdYEwBNP3dFn/HBgw"
+}
+[32m[Nest] 1319251  - [39m12/17/2025, 8:14:17 AM [32m    LOG[39m [32mIncoming Request: GET /my/course/all[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:14:17 AM [32m    LOG[39m [32mIncoming Request: GET /my/users[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:14:17 AM [32m    LOG[39m [32mIncoming Request: GET /my/course/all[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:14:19 AM [32m    LOG[39m [32mIncoming Request: GET /users[39m
+GET /users endpoint hit. Attempting to find all users...
+[32m[Nest] 1319251  - [39m12/17/2025, 8:14:21 AM [32m    LOG[39m [32mIncoming Request: GET /my/course/all[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:14:21 AM [32m    LOG[39m [32mIncoming Request: GET /my/users[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:14:21 AM [32m    LOG[39m [32mIncoming Request: GET /my/course/all[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:14:31 AM [32m    LOG[39m [32mIncoming Request: POST /my/course/create[39m
+[32m[Nest] 1319251  - [39m12/17/2025, 8:14:36 AM [32m    LOG[39m [32mIncoming Request: POST /auth/signout[39m

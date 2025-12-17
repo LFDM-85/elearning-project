@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  elearning-mongo:
+    image: mongo:latest
+    container_name: elearning-mongo
+    ports:
+      - "27017:27017"
+    environment:
+      # These credentials should be used in your Backend-main/.env file for DATABASE_URL
+      MONGO_INITDB_ROOT_USERNAME: mongoadmin
+      MONGO_INITDB_ROOT_PASSWORD: secretpassword
+    volumes:
+      - elearning_mongo_data:/data/db
+    restart: always
+
+volumes:
+  elearning_mongo_data:
