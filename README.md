@@ -1,116 +1,86 @@
-# E-Learn Platform
+# 🎓 Elearning Management System
 
-A modern, full-stack e-learning platform built with React (Frontend) and NestJS (Backend).
+Um projeto Full-stack desenvolvido com **NestJS** e **React**, projetado para ser um ambiente de demonstração funcional para práticas de **Docker Swarm** e **Kubernetes**.
 
-## 🚀 Technologies
+O sistema permite a gestão de cursos, lições, alunos e professores, com autenticação robusta e controle de acesso baseado em funções (RBAC).
 
-### Frontend
-*   **Framework:** React v18
-*   **Language:** TypeScript
-*   **UI Library:** Material-UI (MUI) v5
-*   **Routing:** React Router DOM
-*   **HTTP Client:** Axios
-*   **State/Context:** React Context API for Auth
+---
 
-### Backend
-*   **Framework:** NestJS
-*   **Language:** TypeScript
-*   **Database:** MongoDB
-*   **ORM:** Mongoose
-*   **Authentication:** JWT (JSON Web Tokens) with Passport strategy
-*   **File Storage:** Cloudinary
+## 🚀 Como Iniciar Rapidamente
 
-## 🛠️ Prerequisites
+### 1. Requisitos
+- Docker e Docker Compose
+- Node.js v18+ (opcional para execução local)
 
-*   **Node.js** (v14 or higher)
-*   **Docker** and **Docker Compose** (for running MongoDB)
-*   **Yarn** or **NPM**
-
-## 🏁 Getting Started
-
-We have provided convenient shell scripts to get you up and running quickly.
-
-### 1. Setup & Start All (Recommended)
-
-To start the Database, Backend, and Frontend with a single command:
-
+### 2. Configuração Automática (Recomendado)
+Para subir todo o ambiente (Banco, Backend, Frontend e Mock Data), execute o script na raiz:
 ```bash
+chmod +x start-all.sh
 ./start-all.sh
 ```
 
-This script will:
-1.  Start MongoDB via Docker.
-2.  Install dependencies for both Backend and Frontend if missing.
-3.  Start the Backend server (background process).
-4.  Seed the database with mock data (Users, Courses, Lectures).
-5.  Start the Frontend application.
-
-### 2. Manual Setup
-
-If you prefer to run services individually:
-
-**Step 1: Start Database**
+### 3. Configuração via Docker Compose
+Se preferir usar apenas o Docker:
 ```bash
-./start-db.sh
+docker-compose up --build
+```
+*Após os containers subirem, execute o seed no backend para popular os dados:*
+```bash
+cd Backend-main && npm install && node seed.js
 ```
 
-**Step 2: Start Backend**
-```bash
-./start-backend.sh
-```
-The backend will run on `http://localhost:5000`.
+---
 
-**Step 3: Seed Database (Optional)**
-Populate the database with initial mock data (Admin, Professors, Students, Courses).
-```bash
-./seed-db.sh
-```
+## 🔑 Credenciais de Demonstração (Mock Data)
 
-**Step 4: Start Frontend**
-```bash
-./start-frontend.sh
-```
-The frontend will run on `http://localhost:3000`.
+O sistema já vem pré-configurado com dados de teste através do script `seed.js`:
 
-## 🧪 Mock Data Credentials
-
-The `seed-db.sh` script now populates the database with a rich, realistic dataset:
-
-*   **5 Professors** (e.g., Dr. Alice Johnson, Prof. Bob Smith...)
-*   **30 Students** (e.g., Frank Miller, Grace Wilson...)
-*   **25 Diverse Courses** (Web Dev, Cloud Computing, Data Science, AI, Game Dev, etc.)
-*   **200+ Lectures** with associated Assignments and Attendance records.
-
-### Quick Login Credentials
-
-| Role | Name | Email | Password |
+| Role | Email | Senha | Descrição |
 | :--- | :--- | :--- | :--- |
-| **Admin** | Admin User | `admin@admin.com` | `qwertyuiop` |
-| **Professor** | Dr. Alice Johnson | `prof1@elearning.com` | `professorpassword` |
-| **Professor** | Prof. Bob Smith | `prof2@elearning.com` | `professorpassword` |
-| **Student** | Frank Miller | `student1@elearning.com` | `studentpassword` |
-| **Student** | Grace Wilson | `student2@elearning.com` | `studentpassword` |
+| **Admin** | `admin@admin.com` | `qwertyuiop` | Acesso total ao painel de gestão. |
+| **Professor** | `prof1@elearning.com` | `professorpassword` | Gestão de cursos e lições. |
+| **Aluno** | `student1@elearning.com` | `studentpassword` | Visualização de cursos e notas. |
 
-*(Note: Professors range from `prof1` to `prof5`. Students range from `student1` to `student20`.)*
+> **Dica:** Na página de Login, utilize o botão **"Admin Demonstration Sign IN"** para entrar instantaneamente com a conta principal.
 
-## 📂 Project Structure
+---
 
-*   `Frontend-main/`: React application source code.
-*   `Backend-main/`: NestJS API source code.
-*   `docker-compose.yml`: MongoDB service configuration.
+## 🛠️ Arquitetura e Tecnologias
 
-## 🎨 UI Modernization
+### Backend (NestJS)
+- **Porta:** 5000
+- **Banco de Dados:** MongoDB (via Mongoose)
+- **Autenticação:** JWT com Refresh Tokens e hash **Argon2**.
+- **Documentação:** Swagger disponível em `http://localhost:5000/api`
 
-The project features a modernized UI using Material-UI v5 with:
-*   A fresh color palette (Indigo & Emerald).
-*   Glassmorphism effects in the Header.
-*   Responsive and interactive layouts.
-*   Data Grids for efficient management.
+### Frontend (React + TypeScript)
+- **Porta:** 3000 (Docker) ou 3001 (Local)
+- **UI:** Material UI (MUI)
+- **Estado Global:** Context API para Autenticação.
+- **Segurança:** Interceptores Axios para gestão de tokens e normalização de rotas.
 
-## 🤝 Contributing
+---
 
-1.  Fork the repository.
-2.  Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4.  Push to the branch (`git push origin feature/AmazingFeature`).
-5.  Open a Pull Request.
+## 📦 Estrutura de Mock Data Criada
+Ao rodar o seed, o sistema gera:
+- **1 Admin** (com permissões de professor).
+- **5 Professores** distintos.
+- **20 Alunos** reais.
+- **10 Cursos** com 5 lições cada.
+- Distribuição automática de alunos pelos cursos com logs de presença e notas simuladas.
+
+---
+
+## 🔧 Correções Realizadas para Demonstração
+- ✅ **Blank Page Fix:** Proteção contra tokens corrompidos no `jwt_decode`.
+- ✅ **Routing Normalization:** Interceptor Axios para garantir que chamadas de API em sub-rotas (`/my/...`) não colidam com o roteamento do React.
+- ✅ **Argon2 Compatibility:** Sincronização do hash de senhas entre o script de Seed e o serviço de Auth do NestJS.
+- ✅ **Nginx Proxy:** Configuração de produção ajustada para redirecionar corretamente pedidos de API.
+
+---
+
+## 👨‍💻 Próximos Passos (DevOps)
+Este projeto foi otimizado para:
+1. **Docker Swarm:** Deploy de stacks com réplicas para o backend.
+2. **Kubernetes:** Criação de Deployments, Services e Ingress Controllers.
+3. **CI/CD:** Pipelines para build de imagens e deploy automático.
