@@ -4,53 +4,76 @@ const adminEmail = 'admin@admin.com';
 const adminPassword = 'qwertyuiop';
 let adminAccessToken = '';
 const getImageUrl = (seed) => `https://picsum.photos/seed/${seed}/200/200`;
+const apiClient = axios.create({
+    baseURL: API_BASE_URL,
+    timeout: 5000,
+});
 async function loginAdmin() {
-    try {
-        console.log('Attempting to log in admin...');
-        const response = await axios.post(`${API_BASE_URL}/auth/signin`, {
-            email: adminEmail,
-            password: adminPassword,
-        });
-        adminAccessToken = response.data.tokens.accessToken;
-        console.log('Admin logged in successfully!');
-    }
-    catch (error) {
-        console.error('Admin login failed:', error.response ? error.response.data : error.message);
-        throw new Error('Failed to log in admin.');
+    let attempts = 0;
+    while (attempts < 3) {
+        try {
+            console.log(`Attempting to log in admin (Attempt ${attempts + 1})...`);
+            const response = await apiClient.post('/auth/signin', {
+                email: adminEmail,
+                password: adminPassword,
+            });
+            adminAccessToken = response.data.tokens.accessToken;
+            console.log('Admin logged in successfully!');
+            return;
+        }
+        catch (error) {
+            console.error('Admin login failed:', error.response ? error.response.data : error.message);
+            attempts++;
+            if (attempts >= 3)
+                throw new Error('Failed to log in admin after 3 attempts.');
+            await new Promise(resolve => setTimeout(resolve, 2000));
+        }
     }
 }
 async function createAdminUser() {
-    try {
-        console.log('Creating admin user...');
-        const response = await axios.post(`${API_BASE_URL}/auth/signup`, {
-            name: 'Admin User',
-            image: getImageUrl(100),
-            email: adminEmail,
-            password: adminPassword,
-            roles: ['admin', 'professor'],
-            isValidated: true,
-        });
-        console.log('Admin user created successfully!');
-        await loginAdmin();
-        return response.data.user;
-    }
-    catch (error) {
-        if (error.response && error.response.status === 400 && error.response.data.message === 'User already exists') {
-            console.log('Admin user already exists. Proceeding with login.');
+    let attempts = 0;
+    while (attempts < 3) {
+        try {
+            console.log(`Creating admin user (Attempt ${attempts + 1})...`);
+            const response = await apiClient.post('/auth/signup', {
+                name: 'Admin User',
+                image: getImageUrl(100),
+                email: adminEmail,
+                password: adminPassword,
+                roles: ['admin', 'professor'],
+                isValidated: true,
+            });
+            console.log('Admin user created successfully!');
             await loginAdmin();
+            return response.data.user;
         }
-        else {
+        catch (error) {
+            if (error.response && error.response.status === 400 && error.response.data.message === 'User already exists') {
+                console.log('Admin user already exists. Proceeding with login.');
+                await loginAdmin();
+                try {
+                    const userResponse = await apiClient.get('/auth/whoami', {
+                        headers: { Authorization: `Bearer ${adminAccessToken}` }
+                    });
+                    return userResponse.data;
+                }
+                catch (fetchError) {
+                    console.error('Failed to fetch existing admin details:', fetchError.message);
+                    return { _id: 'dummy_admin_id' };
+                }
+            }
             console.error('Error creating admin user:', error.response ? error.response.data : error.message);
-            throw new Error('Failed to create admin user.');
+            attempts++;
+            if (attempts >= 3)
+                throw new Error('Failed to create admin user after 3 attempts.');
+            await new Promise(resolve => setTimeout(resolve, 2000));
         }
     }
 }
 async function createEntity(endpoint, data, token) {
-    var _a;
     try {
         const headers = token ? { Authorization: `Bearer ${token}` } : {};
-        const response = await axios.post(`${API_BASE_URL}${endpoint}`, data, { headers });
-        console.log(`Created ${endpoint}:`, ((_a = response.data.user) === null || _a === void 0 ? void 0 : _a.email) || response.data.nameCourse || response.data.summary || 'entity');
+        const response = await apiClient.post(endpoint, data, { headers });
         return response.data;
     }
     catch (error) {
@@ -61,8 +84,7 @@ async function createEntity(endpoint, data, token) {
 async function updateEntity(endpoint, data, token) {
     try {
         const headers = token ? { Authorization: `Bearer ${token}` } : {};
-        const response = await axios.patch(`${API_BASE_URL}${endpoint}`, data, { headers });
-        console.log(`Updated ${endpoint}:`, response.data.name || response.data.nameCourse || 'entity');
+        const response = await apiClient.patch(endpoint, data, { headers });
         return response.data;
     }
     catch (error) {
@@ -72,20 +94,19 @@ async function updateEntity(endpoint, data, token) {
 }
 async function seedDatabase() {
     console.log('Starting database seeding...');
-    const adminUserResult = await createAdminUser();
-    if (!adminUserResult) {
+    const adminUser = await createAdminUser();
+    if (!adminUser) {
         console.error('Failed to get admin user, cannot proceed with seeding.');
         return;
     }
-    console.log('Admin setup complete.');
+    console.log(`Admin setup complete. ID: ${adminUser._id}`);
     const professors = [];
     const students = [];
     const courses = [];
-    const lectures = [];
     const professorNames = ['Dr. Alice Johnson', 'Prof. Bob Smith', 'Dr. Carol Williams', 'Prof. David Brown', 'Dr. Emily Davis'];
     for (let i = 0; i < professorNames.length; i++) {
         const profEmail = `prof${i + 1}@elearning.com`;
-        const { user: prof } = await createEntity('/auth/signup', {
+        let prof = await createEntity('/auth/signup', {
             name: professorNames[i],
             image: getImageUrl(i + 200),
             email: profEmail,
@@ -93,6 +114,11 @@ async function seedDatabase() {
             roles: ['professor'],
             isValidated: true,
         }, null);
+        if (!prof && i === 0) {
+            console.log("Professor might already exist, skipping creation logic for existing ones in this simple script.");
+        }
+        if (prof && prof.user)
+            prof = prof.user;
         if (prof) {
             professors.push(prof);
             console.log(`Created Professor: ${prof.name}`);
@@ -108,7 +134,7 @@ async function seedDatabase() {
     ];
     for (let i = 0; i < studentNames.length; i++) {
         const studentEmail = `student${i + 1}@elearning.com`;
-        const { user: student } = await createEntity('/auth/signup', {
+        let student = await createEntity('/auth/signup', {
             name: studentNames[i],
             image: getImageUrl(i + 300),
             email: studentEmail,
@@ -116,6 +142,8 @@ async function seedDatabase() {
             roles: ['student'],
             isValidated: true,
         }, null);
+        if (student && student.user)
+            student = student.user;
         if (student) {
             students.push(student);
             console.log(`Created Student: ${student.name}`);
@@ -139,80 +167,81 @@ async function seedDatabase() {
             if (course) {
                 courses.push(course);
                 console.log(`Created Course: ${course.nameCourse} by ${prof.name}`);
-            }
-        }
-    }
-    console.log('Course creation complete.');
-    const lectureSummaries = [
-        'Module 1: Getting Started', 'Module 2: Core Concepts', 'Module 3: Advanced Topics',
-        'Project Work & Review', 'Midterm Exam Prep', 'Final Project Guidelines',
-        'Case Study Analysis', 'Guest Lecture Series'
-    ];
-    for (const course of courses) {
-        if (course) {
-            for (let i = 0; i < lectureSummaries.length; i++) {
-                const lecture = await createEntity('/lectures/create', {
-                    summary: `${course.nameCourse}: ${lectureSummaries[i]}`,
-                    description: `Detailed description for ${course.nameCourse} - ${lectureSummaries[i]}.`,
-                    finished: i < 4,
-                }, adminAccessToken);
-                if (lecture) {
-                    lectures.push(lecture);
-                    await updateEntity(`/course/${course._id}/add-lecture/${lecture._id}`, {}, adminAccessToken);
-                    console.log(`Added Lecture "${lecture.summary}" to "${course.nameCourse}"`);
+                const lectureSummaries = [
+                    'Module 1: Getting Started', 'Module 2: Core Concepts', 'Module 3: Advanced Topics',
+                    'Project Work & Review', 'Midterm Exam Prep', 'Final Project Guidelines',
+                    'Case Study Analysis', 'Guest Lecture Series'
+                ];
+                const courseLectures = [];
+                for (let j = 0; j < lectureSummaries.length; j++) {
+                    const lecture = await createEntity('/lectures/create', {
+                        summary: `${course.nameCourse}: ${lectureSummaries[j]}`,
+                        description: `Detailed description for ${course.nameCourse} - ${lectureSummaries[j]}.`,
+                        finished: j < 4,
+                    }, adminAccessToken);
+                    if (lecture) {
+                        courseLectures.push(lecture);
+                        await updateEntity(`/course/${course._id}/add-lecture/${lecture._id}`, {}, adminAccessToken);
+                    }
                 }
+                course.lectures = courseLectures;
             }
         }
     }
-    console.log('Lecture creation complete.');
+    console.log('Course and Lecture creation complete.');
+    console.log('Enrolling students and generating activity data...');
     for (const student of students) {
-        if (student) {
-            const numCoursesToEnroll = Math.floor(Math.random() * 6) + 3;
-            const shuffledCourses = [...courses].sort(() => 0.5 - Math.random());
-            const coursesToEnroll = shuffledCourses.slice(0, numCoursesToEnroll);
-            for (const course of coursesToEnroll) {
-                if (course) {
-                    await updateEntity(`/users/${student._id}/add-course/${course._id}`, {}, adminAccessToken);
-                    console.log(`Enrolled ${student.name} in ${course.nameCourse}`);
-                    for (const lecture of course.lecture) {
-                        if (lecture) {
-                            const assessmentValue = Math.floor(Math.random() * 50) + 50;
-                            const assessment = await createEntity('/assessments/create', { assessmentValue: assessmentValue, userEmail: student.email }, adminAccessToken);
-                            if (assessment) {
-                                await updateEntity(`/lectures/${lecture._id}/add-assessment/${assessment._id}`, {}, adminAccessToken);
-                                console.log(`Student ${student.name} got ${assessmentValue} in ${lecture.summary}`);
-                            }
-                            if (Math.random() > 0.3) {
-                                const work = await createEntity('/work/create', {
-                                    filename: `${student.name.replace(/\s/g, '_')}_${lecture.summary.replace(/\s/g, '_')}_assignment.pdf`,
-                                    filepath: `/uploads/${student.name.replace(/\s/g, '_')}_${lecture.summary.replace(/\s/g, '_')}_assignment.pdf`,
-                                    owner: student.email,
-                                }, adminAccessToken);
-                                if (work) {
-                                    await updateEntity(`/lectures/${lecture._id}/add-work/${work._id}`, {}, adminAccessToken);
-                                    console.log(`Student ${student.name} submitted work for ${lecture.summary}`);
-                                }
-                            }
-                            if (Math.random() > 0.5) {
-                                const attendance = await createEntity('/attendance/create', {
-                                    attendance: false,
-                                    validation: false,
-                                    filename: `${student.name.replace(/\s/g, '_')}_${lecture.summary.replace(/\s/g, '_')}_justification.jpg`,
-                                    filepath: `/uploads/${student.name.replace(/\s/g, '_')}_${lecture.summary.replace(/\s/g, '_')}_justification.jpg`,
-                                    owner: student.email,
-                                }, adminAccessToken);
-                                if (attendance) {
-                                    await updateEntity(`/lectures/${lecture._id}`, { attendance: attendance._id }, adminAccessToken);
-                                    console.log(`Student ${student.name} submitted justification for ${lecture.summary}`);
-                                }
-                            }
+        if (!student)
+            continue;
+        const numCoursesToEnroll = Math.floor(Math.random() * 4) + 3;
+        const shuffledCourses = [...courses].sort(() => 0.5 - Math.random());
+        const coursesToEnroll = shuffledCourses.slice(0, numCoursesToEnroll);
+        for (const course of coursesToEnroll) {
+            if (!course)
+                continue;
+            await updateEntity(`/users/${student._id}/add-course/${course._id}`, {}, adminAccessToken);
+            if (course.lectures) {
+                for (const lecture of course.lectures) {
+                    if (Math.random() > 0.2) {
+                        const assessmentValue = Math.floor(Math.random() * 50) + 50;
+                        const assessment = await createEntity('/assessments/create', { assessmentValue: assessmentValue, userEmail: student.email }, adminAccessToken);
+                        if (assessment) {
+                            await updateEntity(`/lectures/${lecture._id}/add-assessment/${assessment._id}`, {}, adminAccessToken);
+                            await updateEntity(`/users/${student._id}/add-assessment/${assessment._id}`, {}, adminAccessToken);
+                        }
+                    }
+                    if (Math.random() > 0.6) {
+                        const work = await createEntity('/work/create', {
+                            filename: `Assignment_${student.name.split(' ')[0]}_${Date.now()}.pdf`,
+                            filepath: `/uploads/assignments/Assignment_${student.name.split(' ')[0]}_${Date.now()}.pdf`,
+                            owner: student.email,
+                        }, adminAccessToken);
+                        if (work) {
+                            await updateEntity(`/lectures/${lecture._id}/add-work/${work._id}`, {}, adminAccessToken);
+                            await updateEntity(`/users/${student._id}/add-work/${work._id}`, {}, adminAccessToken);
+                        }
+                    }
+                    if (Math.random() > 0.1) {
+                        const isPresent = Math.random() > 0.2;
+                        const attendanceData = {
+                            attendance: isPresent,
+                            validation: isPresent,
+                            owner: student.email,
+                        };
+                        if (!isPresent) {
+                            attendanceData.filename = `Justification_${student.name.split(' ')[0]}.jpg`;
+                            attendanceData.filepath = `/uploads/justifications/Justification_${student.name.split(' ')[0]}.jpg`;
+                        }
+                        const attendance = await createEntity('/attendance/create', attendanceData, adminAccessToken);
+                        if (attendance) {
+                            await updateEntity(`/users/${student._id}/add-attendance/${attendance._id}`, {}, adminAccessToken);
                         }
                     }
                 }
             }
         }
+        console.log(`Processed student: ${student.name}`);
     }
-    console.log('Student enrollment and data complete.');
     console.log('Database seeding complete!');
 }
 seedDatabase().catch(console.error);

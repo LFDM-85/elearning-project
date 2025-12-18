@@ -7,11 +7,35 @@ services:
     ports:
       - "27017:27017"
     environment:
-      # These credentials should be used in your Backend-main/.env file for DATABASE_URL
       MONGO_INITDB_ROOT_USERNAME: mongoadmin
       MONGO_INITDB_ROOT_PASSWORD: secretpassword
     volumes:
       - elearning_mongo_data:/data/db
+    restart: always
+
+  backend:
+    build: ./Backend-main
+    container_name: elearning-backend
+    ports:
+      - "5000:5000"
+    environment:
+      DATABASE_URL: mongodb://mongoadmin:secretpassword@elearning-mongo:27017/elearning?authSource=admin
+      JWT_ACCESS_SECRET: secret_access_key_placeholder_123
+      JWT_REFRESH_SECRET: secret_refresh_key_placeholder_456
+      CLD_CLOUD_NAME: placeholder
+      CLD_API_KEY: placeholder
+      CLD_API_SECRET: placeholder
+    depends_on:
+      - elearning-mongo
+    restart: always
+
+  frontend:
+    build: ./Frontend-main
+    container_name: elearning-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
     restart: always
 
 volumes:
