@@ -44,7 +44,7 @@ export const AppRoutes = () => {
 
     const refresh = async () => {
       try {
-        const res = await axios.get('auth/refresh', config);
+        const res = await axios.get('/auth/refresh', config);
         const newToken = res.data.accessToken;
         const newRefreshToken = res.data.refreshToken;
         setToken(newToken);
@@ -53,7 +53,7 @@ export const AppRoutes = () => {
         localStorage.setItem('refreshToken', newRefreshToken);
         authCtx.isSignedIn = true;
         axios
-          .get('auth/whoami', {
+          .get('/auth/whoami', {
             headers: { Authorization: `Bearer ${token}` },
           })
           .then((res) => {
@@ -73,14 +73,21 @@ export const AppRoutes = () => {
     if (!accessedToken || !refreshedToken) {
       authCtx.isSignedIn = false;
     } else {
-      authCtx.isSignedIn = true;
+      try {
+        authCtx.isSignedIn = true;
 
-      const decoded = jwt_decode<{ exp: number }>(token);
+        const decoded = jwt_decode<{ exp: number }>(token);
 
-      const tokenExpiration = decoded.exp * 1000;
-      const now = Date.now();
-      if (tokenExpiration - now < 60 * 60 * 1000) {
-        refresh();
+        const tokenExpiration = decoded.exp * 1000;
+        const now = Date.now();
+        if (tokenExpiration - now < 60 * 60 * 1000) {
+          refresh();
+        }
+      } catch (error) {
+        console.error('Invalid token:', error);
+        authCtx.isSignedIn = false;
+        localStorage.removeItem('accessToken');
+        localStorage.removeItem('refreshToken');
       }
     }
     setIsLoading(false);
