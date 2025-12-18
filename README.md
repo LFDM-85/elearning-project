@@ -1,86 +1,86 @@
 # 🎓 Elearning Management System
 
-Um projeto Full-stack desenvolvido com **NestJS** e **React**, projetado para ser um ambiente de demonstração funcional para práticas de **Docker Swarm** e **Kubernetes**.
+A Full-stack project developed with **NestJS** and **React**, designed to be a functional demonstration environment for practicing **Docker Swarm** and **Kubernetes**.
 
-O sistema permite a gestão de cursos, lições, alunos e professores, com autenticação robusta e controle de acesso baseado em funções (RBAC).
+The system allows for the management of courses, lectures, students, and professors, featuring robust authentication and Role-Based Access Control (RBAC).
 
 ---
 
-## 🚀 Como Iniciar Rapidamente
+## 🚀 Quick Start
 
-### 1. Requisitos
-- Docker e Docker Compose
-- Node.js v18+ (opcional para execução local)
+### 1. Requirements
+- Docker and Docker Compose
+- Node.js v18+ (optional for local execution)
 
-### 2. Configuração Automática (Recomendado)
-Para subir todo o ambiente (Banco, Backend, Frontend e Mock Data), execute o script na raiz:
+### 2. Automatic Setup (Recommended)
+To spin up the entire environment (Database, Backend, Frontend, and Mock Data), run the script in the root directory:
 ```bash
 chmod +x start-all.sh
 ./start-all.sh
 ```
 
-### 3. Configuração via Docker Compose
-Se preferir usar apenas o Docker:
+### 3. Docker Compose Setup
+If you prefer using only Docker:
 ```bash
 docker-compose up --build
 ```
-*Após os containers subirem, execute o seed no backend para popular os dados:*
+*Once the containers are up, run the seed script in the backend to populate the data:*
 ```bash
 cd Backend-main && npm install && node seed.js
 ```
 
 ---
 
-## 🔑 Credenciais de Demonstração (Mock Data)
+## 🔑 Demonstration Credentials (Mock Data)
 
-O sistema já vem pré-configurado com dados de teste através do script `seed.js`:
+The system is pre-configured with test data via the `seed.js` script:
 
-| Role | Email | Senha | Descrição |
+| Role | Email | Password | Description |
 | :--- | :--- | :--- | :--- |
-| **Admin** | `admin@admin.com` | `qwertyuiop` | Acesso total ao painel de gestão. |
-| **Professor** | `prof1@elearning.com` | `professorpassword` | Gestão de cursos e lições. |
-| **Aluno** | `student1@elearning.com` | `studentpassword` | Visualização de cursos e notas. |
+| **Admin** | `admin@admin.com` | `qwertyuiop` | Full access to the management panel. |
+| **Professor** | `prof1@elearning.com` | `professorpassword` | Course and lecture management. |
+| **Student** | `student1@elearning.com` | `studentpassword` | View courses and grades. |
 
-> **Dica:** Na página de Login, utilize o botão **"Admin Demonstration Sign IN"** para entrar instantaneamente com a conta principal.
+> **Tip:** On the Login page, use the **"Admin Demonstration Sign IN"** button to log in instantly with the main account.
 
 ---
 
-## 🛠️ Arquitetura e Tecnologias
+## 🛠️ Architecture and Technologies
 
 ### Backend (NestJS)
-- **Porta:** 5000
-- **Banco de Dados:** MongoDB (via Mongoose)
-- **Autenticação:** JWT com Refresh Tokens e hash **Argon2**.
-- **Documentação:** Swagger disponível em `http://localhost:5000/api`
+- **Port:** 5000
+- **Database:** MongoDB (via Mongoose)
+- **Authentication:** JWT with Refresh Tokens and **Argon2** hashing.
+- **Documentation:** Swagger available at `http://localhost:5000/api`
 
 ### Frontend (React + TypeScript)
-- **Porta:** 3000 (Docker) ou 3001 (Local)
+- **Port:** 3000 (Docker) or 3001 (Local)
 - **UI:** Material UI (MUI)
-- **Estado Global:** Context API para Autenticação.
-- **Segurança:** Interceptores Axios para gestão de tokens e normalização de rotas.
+- **Global State:** Context API for Authentication.
+- **Security:** Axios interceptors for token management and route normalization.
 
 ---
 
-## 📦 Estrutura de Mock Data Criada
-Ao rodar o seed, o sistema gera:
-- **1 Admin** (com permissões de professor).
-- **5 Professores** distintos.
-- **20 Alunos** reais.
-- **10 Cursos** com 5 lições cada.
-- Distribuição automática de alunos pelos cursos com logs de presença e notas simuladas.
+## 📦 Mock Data Structure
+Running the seed script generates:
+- **1 Admin** (with professor permissions).
+- **5 Distinct Professors**.
+- **20 Students**.
+- **10 Courses** with 5 lectures each.
+- Automatic distribution of students across courses with attendance logs and simulated grades.
 
 ---
 
-## 🔧 Correções Realizadas para Demonstração
-- ✅ **Blank Page Fix:** Proteção contra tokens corrompidos no `jwt_decode`.
-- ✅ **Routing Normalization:** Interceptor Axios para garantir que chamadas de API em sub-rotas (`/my/...`) não colidam com o roteamento do React.
-- ✅ **Argon2 Compatibility:** Sincronização do hash de senhas entre o script de Seed e o serviço de Auth do NestJS.
-- ✅ **Nginx Proxy:** Configuração de produção ajustada para redirecionar corretamente pedidos de API.
+## 🔧 Fixes Implemented for Demonstration
+- ✅ **Blank Page Fix:** Added protection against corrupted or missing tokens in `jwt_decode`.
+- ✅ **Routing Normalization:** Implemented an Axios interceptor to ensure API calls from nested routes (`/my/...`) do not collide with React routing.
+- ✅ **Argon2 Compatibility:** Synchronized password hashing between the Seed script and the NestJS Auth service.
+- ✅ **Nginx Proxy:** Production configuration adjusted to correctly redirect API requests and handle sub-paths.
 
 ---
 
-## 👨‍💻 Próximos Passos (DevOps)
-Este projeto foi otimizado para:
-1. **Docker Swarm:** Deploy de stacks com réplicas para o backend.
-2. **Kubernetes:** Criação de Deployments, Services e Ingress Controllers.
-3. **CI/CD:** Pipelines para build de imagens e deploy automático.
+## 👨‍💻 Next Steps (DevOps)
+This project is optimized for:
+1. **Docker Swarm:** Deploying stacks with backend replicas and load balancing.
+2. **Kubernetes:** Creating Deployments, Services, and Ingress Controllers.
+3. **CI/CD:** Pipelines for building images and automatic deployment.
